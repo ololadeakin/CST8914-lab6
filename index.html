@@ -81,8 +81,8 @@ caption {
         <div class="container">
           <div class="row">
             <section class="col-xs-12">
-              <h2 class="wb-inv">Name of Web application</h2>
-              <a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
+              <!-- <h2 class="wb-inv">Name of Web application</h2> -->
+				<a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
             </section>
           </div>
         </div>
@@ -103,7 +103,7 @@ caption {
                 <a
                   class="item"
                   href="index-en.html"
-                  tabindex="1"
+                  tabindex="0"
                   aria-posinset="1"
                   aria-setsize="7"
                   >Home</a
@@ -113,7 +113,7 @@ caption {
                 <a
                   class="item"
                   href="internet-en.html"
-                  tabindex="2"
+                  tabindex="-1"
                   aria-posinset="2"
                   aria-setsize="7"
                   >Buying</a
@@ -123,7 +123,7 @@ caption {
                 <a
                   class="item"
                   href="intranet-en.html"
-                  tabindex="3"
+                  tabindex="-2"
                   aria-posinset="3"
                   aria-setsize="7"
                   >Selling</a
@@ -133,7 +133,7 @@ caption {
                 <a
                   class="item"
                   href="faq-en.html"
-                  tabindex="4"
+                  tabindex="-3"
                   aria-posinset="6"
                   aria-setsize="7"
                   >FAQs</a
@@ -143,7 +143,7 @@ caption {
                 <a
                   class="item"
                   href="contact-en.html"
-                  tabindex="5"
+                  tabindex="-4"
                   aria-posinset="7"
                   aria-setsize="7"
                   >Contact us</a
@@ -168,7 +168,7 @@ caption {
         <section aria-labelledby="resources" class="col-md-4 pull-right">
 			<h2 id="resources">Related resources </h2>
           <p>It's time to sell and find the next "one". Let us help you navigate the ins & outs of your next move.</p>
-		  <ul role="menubar">
+		  <ul >
 			<li ><a href="#" >Looking for an upgrade?</a> </li>
 			<li ><a href="#">Buying tips</a></li>
 			<li ><a href="#">How much is your current home worth?</a></li>
@@ -184,7 +184,7 @@ caption {
 			</p>
 		
 			<table aria-labelledby="tableTitle" id="myTable" class="table table-lined">
-				<caption>Stats of HI/Max</caption>
+				<caption id="tableTitle">Stats of HI/Max</caption>
 				<thead>
 					<tr>
 						<th rowspan="2" id="tbl5">Year</th>
